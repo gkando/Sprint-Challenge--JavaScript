@@ -29,27 +29,45 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   
+   `.forEach`: I don't return stuff.
+   
+   `.map`: I return stuff.
 
 2. What is the difference between a function and a method?
 
+    Functions and methods both are functions in JS. A method is just a function which is a property of an object.
+
 3. What is closure?
+
+    If JS cannot locate the context of a variable locally, it will look outside it's scope to give the variable meaning.
 
 4. Describe the four rules of the 'this' keyword.
 
+ (1) Global Binding -- default binding  -- invoked in window/console context.
+ 
+ (2) Implicit Binding -- set in function -- object before (to the left of) the dot is what `this` will be bound to - it sets the context.
+
+ (3) New Binding - constructor functions -- refers to the specific instance of the object that is created and returned by a constructor function.
+
+ (4) Explicit Binding -- .call .bind & .apply -- whenever call or apply method is used, this is explicityly defined.
+
 5. Why do we need super() in an extended class?
+
+    `super` is used to inherit from superior/parent class which it extends.  This allows access and call functions on an object's parent.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
