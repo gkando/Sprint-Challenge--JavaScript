@@ -38,19 +38,21 @@ Edit this document to include your answers after each question. Make sure to lea
 
     Functions and methods both are functions in JS. A method is just a function which is a property of an object.
 
+!!!!!!!!!!!!!!The biggest difference between .forEach and .map is that map returns a new array of elements while in turn passing each element back to the callback.
+
 3. What is closure?
 
     If JS cannot locate the context of a variable locally, it will look outside it's scope to give the variable meaning.
 
 4. Describe the four rules of the 'this' keyword.
 
- (1) Global Binding -- default binding  -- invoked in window/console context.
- 
- (2) Implicit Binding -- set in function -- object before (to the left of) the dot is what `this` will be bound to - it sets the context.
+    (1) Global Binding -- default binding  -- invoked in window/console context.
+    
+    (2) Implicit Binding -- set in function -- object before (to the left of) the dot is what `this` will be bound to - it sets the context.
 
- (3) New Binding - constructor functions -- refers to the specific instance of the object that is created and returned by a constructor function.
+    (3) New Binding - constructor functions -- refers to the specific instance of the object that is created and returned by a constructor function.
 
- (4) Explicit Binding -- .call .bind & .apply -- whenever call or apply method is used, this is explicityly defined.
+    (4) Explicit Binding -- .call .bind & .apply -- whenever call or apply method is used, this is explicityly defined.
 
 5. Why do we need super() in an extended class?
 
@@ -65,7 +67,7 @@ Follow these steps to set up and work on your project:
 - [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
+- [X] You are now ready to build this project with your preferred IDE
 - [x] Implement the project on your Branch, committing changes regularly.
 - [x] Push commits: git push origin `<firstName-lastName>`.
 
@@ -92,11 +94,11 @@ This challenge takes a look at callbacks and closures as well as scope.
 
 ## Task 3: Prototypes
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+* [x] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+* [x] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
